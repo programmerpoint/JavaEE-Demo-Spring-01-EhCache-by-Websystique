@@ -1,10 +1,10 @@
-#JavaEE_Demo_Spring_01_EhCache
+# JavaEE_Demo_Spring_01_EhCache
 
-##Based on:
+## Based on:
 
 http://websystique.com/spring/spring-4-cache-tutorial-with-ehcache/
 
-###Caching Annotations
+### Caching Annotations
 
     @Cacheable : triggers cache population
     @CacheEvict : triggers cache eviction
@@ -14,7 +14,7 @@ http://websystique.com/spring/spring-4-cache-tutorial-with-ehcache/
     @EnableCaching : Configuration level annotation which enables Caching
 
 
-###Getting Started:
+### Getting Started:
 
 1.  Add @EnableCaching AppConfig.java
 2.  Create resources/ehcache.xml
